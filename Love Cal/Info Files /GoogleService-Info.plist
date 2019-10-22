@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>269415492332-ddqqbiapv1urtfmfdli53b3u5c5vv73q.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.269415492332-ddqqbiapv1urtfmfdli53b3u5c5vv73q</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC14s7ifGV71Ss6p4nU6N3EGyduwZDqx78</string>
+	<key>GCM_SENDER_ID</key>
+	<string>269415492332</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.loveCal</string>
+	<key>PROJECT_ID</key>
+	<string>lovecal-75f12</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lovecal-75f12.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:269415492332:ios:8a417bad9a2d5838a5d3c9</string>
+	<key>DATABASE_URL</key>
+	<string>https://lovecal-75f12.firebaseio.com</string>
+</dict>
+</plist>
