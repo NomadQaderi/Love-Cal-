@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		48EC64DB91B6CC16DCE2F141 /* Pods_Love_Cal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3795748C2DAEB5AF8EFB9DE /* Pods_Love_Cal.framework */; };
+		5E2851A223636E5D00A41EDC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2851A023636E5D00A41EDC /* SecondViewController.swift */; };
+		5E2851A323636E5D00A41EDC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2851A123636E5D00A41EDC /* FirstViewController.swift */; };
 		5EC8233123301E5400D9D2EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8233023301E5400D9D2EB /* AppDelegate.swift */; };
-		5EC8233323301E5400D9D2EB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8233223301E5400D9D2EB /* FirstViewController.swift */; };
 		5EC8233623301E5400D9D2EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8233423301E5400D9D2EB /* Main.storyboard */; };
 		5EC8233B23301E5700D9D2EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8233923301E5700D9D2EB /* LaunchScreen.storyboard */; };
-		5EC8234323301EDC00D9D2EB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8234223301EDC00D9D2EB /* SecondViewController.swift */; };
 		5EC823492330716300D9D2EB /* Assets 2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC823482330716300D9D2EB /* Assets 2.xcassets */; };
 		5EC823502330832F00D9D2EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8234F2330832F00D9D2EB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -20,13 +20,13 @@
 /* Begin PBXFileReference section */
 		1905E14775E5AB4523C9E6C0 /* Pods-Love Cal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love Cal.release.xcconfig"; path = "Target Support Files/Pods-Love Cal/Pods-Love Cal.release.xcconfig"; sourceTree = "<group>"; };
 		5880A9750051FAB41C59004D /* Pods-Love Cal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love Cal.debug.xcconfig"; path = "Target Support Files/Pods-Love Cal/Pods-Love Cal.debug.xcconfig"; sourceTree = "<group>"; };
+		5E2851A023636E5D00A41EDC /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5E2851A123636E5D00A41EDC /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		5EC8232D23301E5400D9D2EB /* Love Cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love Cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC8233023301E5400D9D2EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5EC8233223301E5400D9D2EB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		5EC8233523301E5400D9D2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EC8233A23301E5700D9D2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EC8233C23301E5700D9D2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EC8234223301EDC00D9D2EB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5EC823482330716300D9D2EB /* Assets 2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 2.xcassets"; sourceTree = "<group>"; };
 		5EC8234F2330832F00D9D2EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B3795748C2DAEB5AF8EFB9DE /* Pods_Love_Cal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Love_Cal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,9 +65,9 @@
 		5EC8232F23301E5400D9D2EB /* Love Cal */ = {
 			isa = PBXGroup;
 			children = (
+				5E2851A123636E5D00A41EDC /* FirstViewController.swift */,
+				5E2851A023636E5D00A41EDC /* SecondViewController.swift */,
 				5EC8233023301E5400D9D2EB /* AppDelegate.swift */,
-				5EC8233223301E5400D9D2EB /* FirstViewController.swift */,
-				5EC8234223301EDC00D9D2EB /* SecondViewController.swift */,
 				5EC8233423301E5400D9D2EB /* Main.storyboard */,
 				5EC823482330716300D9D2EB /* Assets 2.xcassets */,
 				5EC8233923301E5700D9D2EB /* LaunchScreen.storyboard */,
@@ -218,8 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EC8234323301EDC00D9D2EB /* SecondViewController.swift in Sources */,
-				5EC8233323301E5400D9D2EB /* FirstViewController.swift in Sources */,
+				5E2851A323636E5D00A41EDC /* FirstViewController.swift in Sources */,
+				5E2851A223636E5D00A41EDC /* SecondViewController.swift in Sources */,
 				5EC8233123301E5400D9D2EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,7 +374,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "NomadAppAcademy.Love-Cal";
+				PRODUCT_BUNDLE_IDENTIFIER = "NomadQaderi.Love-Cal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -393,7 +393,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "NomadAppAcademy.Love-Cal";
+				PRODUCT_BUNDLE_IDENTIFIER = "NomadQaderi.Love-Cal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

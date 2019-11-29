@@ -12,7 +12,6 @@ class FirsViewController: UIViewController {
     
     
     @IBOutlet weak var yourNameTextField: UITextField!
-    
     @IBOutlet weak var yourCrushNameTextField: UITextField!
     
     
@@ -34,18 +33,18 @@ class FirsViewController: UIViewController {
     func loveCalculateFunction(yourName: String, theirName: String) -> String {
         let loveScore = arc4random_uniform(101)
         if loveScore > 95 {
-            return ("Your Love \(loveScore) % The verdict Stay away from candles - your relationship is hot enough already!")
+            return ("Your Love score is \(loveScore) % The verdict Stay away from candles - your relationship is hot enough already!")
             
         } else if loveScore > 90 {
-            return ("Your Love \(loveScore) %  For you guys, Love is a promise; it is a souvenir, once given never forgotten. Cheers!")
+            return ("Your Love score is \(loveScore) %  For you guys, Love is a promise; it is a souvenir, once given never forgotten. Cheers!")
         } else if loveScore > 80 && loveScore < 90 {
-            return ("Your Love \(loveScore) % You guys are most alive when you’re in love with each other. Cheers!!")
+            return ("Your Love score is \(loveScore) % You guys are most alive when you’re in love with each other. Cheers!!")
         } else if loveScore > 60 && loveScore < 80 {
-            return ("Your Love \(loveScore) % The chance of this relationship workout between you is not very big, but a relationship is very well possible, if the two of you really want it to, and are prepared to make some sacrifices for it.")
+            return ("Your Love score is \(loveScore) % The chance of this relationship workout between you is not very big, but a relationship is very well possible, if the two of you really want it to, and are prepared to make some sacrifices for it.")
         } else if loveScore < 50 {
-            return ("Your Love \(loveScore) % This relationship might work out, but the chance is very small. A successful relationship is possible, but you both have to work on it.")
+            return ("Your Love score is \(loveScore) % This relationship might work out, but the chance is very small. A successful relationship is possible, but you both have to work on it.")
         }
-        return ("Your Love \(loveScore) no love possible between you two 😢")
+        return ("Your Love score is \(loveScore) no love possible between you two 😢")
     }
     
     
@@ -80,17 +79,17 @@ class FirsViewController: UIViewController {
     
     
     
-    
-    
+
     @IBAction func calculateButton(_ sender: Any) {
         performSegue(withIdentifier: "segueToSecondScreen", sender: self)
-        view.endEditing(true)
-        
-    }
+        view.endEditing(true) }
     
     
-    
-    
+//    func textFieldDidEndEditing(_ textField: UITextField) {
+//           yourCrushNameTextField.text = ""
+//           yourCrushNameTextField.text = ""
+//       }
+//
 }
 
 extension FirsViewController: UITextFieldDelegate {
@@ -105,11 +104,10 @@ extension FirsViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
-        
-        
     }
     
     
+
     func configueTapGasture() {
         
         let tapGasture = UITapGestureRecognizer(target: self, action: #selector(FirsViewController.handleTap))
@@ -125,6 +123,8 @@ extension FirsViewController: UITextFieldDelegate {
     }
     
     @IBAction func undwindSege(_ sender: UIStoryboardSegue){
+        
     }
+             
     
 }

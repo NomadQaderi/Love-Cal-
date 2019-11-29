@@ -10,11 +10,10 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
-    @IBOutlet weak var displayTextView: UITextField!
+@IBOutlet weak var displayTextView: UITextView!
     
     
     var myString = String()
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,18 +22,7 @@ class SecondViewController: UIViewController {
         
         displayTextView.text = myString
         
-//        let fixedWidth = textView.frame.size.width
-//        let newSize = textView.sizeThatFits(CGSize(width: fixedWidth, height: CGFloat.greatestFiniteMagnitude))
-//        textView.frame.size = CGSize(width: max(newSize.width, fixedWidth), height: newSize.height)
 
-
-//        let fixedWidth = displayTextView.frame.size.width
-//        let newSize = displayTextView.sizeThatFits(CGSize(width: fixedWidth, height:  CGFloat.greatestFiniteMagnitude))
-//        displayTextView.frame.size = CGSize(width: max(newSize.width, fixedWidth), height: newSize.height)
-//
-//
-//
-        
         /*
          // MARK: - Navigation
          
