@@ -1,2 +1,2 @@
 # Love Cal 
-Welcome to this great invention of Love App Calculator
+Test your compatibility with our Love Calculator!
