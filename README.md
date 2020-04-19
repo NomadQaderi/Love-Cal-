@@ -1,4 +1,4 @@
-# Love Cal 
+# Jura Love Cal 
 Test your love compatibility
 
 We all know that a name can tell a lot about a person. Names are not randomly chosen: they all have a meaning, that's why we made Love Cal App for you to check if relationship with someone you like could work out
